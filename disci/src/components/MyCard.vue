@@ -1,5 +1,5 @@
 <template>
-  <section class="card">
+  <div class="card">
     <img :src="discsObject.poster" :alt="discsObject.title">
     <div class="card-text">
       <h2>{{ discsObject.title }}</h2>
@@ -7,7 +7,7 @@
       <h5>{{ discsObject.year }}</h5>
 
     </div>
-  </section>
+  </div>
 </template>
   
   <script>
